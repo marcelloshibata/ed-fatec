@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+	float media, soma, notas[5];
+	int i;
+	
+	// percorre todos os indices do vetor
+	for(i=0; i<5; i++) {
+		printf("\n Informe a nota: ");
+		scanf("%f", &notas[i]);
+		//i = valor da posicao do elemento
+	}
+	
+	// realiza a soma das notas
+	for (i=0; i<5; i++) {
+		soma = soma + notas[i];
+	}
+	
+	// calcula a media
+	media = soma /5;
+	
+	printf("Media: %f", media);
+ }
