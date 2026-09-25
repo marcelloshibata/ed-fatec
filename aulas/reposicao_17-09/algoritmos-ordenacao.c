@@ -44,6 +44,8 @@ void selectionSort(int vetor[], int tamanho) {
 }
 
 void mergeSort(int vetor[], int inicio, int fim) {
+	
+	// Prof não consegui fazer o mergeSort e o QuickSort :( Vou esperar pela sua aula pra entender melhor
 }
 
 int main() {
